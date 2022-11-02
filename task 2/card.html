@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card__front">
+        <form action="#" method="post">
+          <label for="card-number">Card number</label>
+          <input
+            id="card-number"
+            name="card-number"
+            type="text"
+            maxlength="16"
+            placeholder="1234 1234 1234 1234"
+          />
+          <label for="card-date">Expiration date</label>
+          <input
+            id="card-month"
+            name="card-date"
+            type="number"
+            min="1"
+            max="12"
+          />
+          <input
+            id="card-year"
+            name="card-date"
+            type="number"
+            min="2010"
+            max="2035"
+          />
+          <label for="cardholder">Cardholder name</label>
+          <input
+            id="cardholder"
+            name="cardholder"
+            type="text"
+            maxlength="30"
+            placeholder="ELVIS PRESLEY"
+          />
+        </form>
+        <div class="logo-bank">
+          <img src="/visa logo.svg" alt="" />
+          <img src="/mastercard logo.svg" alt="" />
+          <img src="/AM logo.svg" alt="" />
+        </div>
+      </div>
+      <div class="card__back">
+        <div class="line"></div>
+        <div class="card-cvc">
+          <label for="card-cvc">CVC/CVV</label>
+          <input
+            id="card-cvc"
+            name="card-cvc"
+            type="text"
+            minlength="3"
+            maxlength="4"
+          />
+          <p>
+            The last <br />3 or 4 digits <br />
+            on back <br />
+            of the card
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
