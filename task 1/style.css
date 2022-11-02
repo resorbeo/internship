@@ -1,17 +1,40 @@
 .header {
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: justify;
+  display: block;
   margin: 0 auto;
-  width: 600px;
-  height: 100px;
-  background-color: black;
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(65, 63, 63);
   color: aliceblue;
 }
 
-.nav {
+a:visited {
+  color: aliceblue;
 }
-.nav__list {
+
+ul {
+  position: relative;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+li:hover {
+  background-color: rgb(92, 90, 90);
+}
+
+li > ul {
+  position: absolute;
+  left: 157px;
+  background-color: rgb(92, 90, 90);
+  width: 186px;
+  text-align: left;
   display: none;
+}
+
+li:hover > ul {
+  display: block;
 }
