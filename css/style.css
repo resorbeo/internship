@@ -112,7 +112,7 @@ li > a:hover {
 .promo__banner > p {
   position: absolute;
   text-align: left;
-  /* top: 250px; */
+
   top: 35%;
   left: 30px;
   padding-right: 20px;
@@ -449,7 +449,121 @@ li > a:hover {
 
 /* MEDIA */
 
+@media (max-width: 4000px) {
+  .header {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .promo {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .promo__banner > h2 {
+    font-size: 5rem;
+  }
+  .promo__banner > p {
+    font-size: 2rem;
+  }
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .nft-token-sistem__knight > p {
+    height: 2vh;
+  }
+  .benefits__block {
+    width: 3vw;
+    height: 10vh;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    width: 3vw;
+    height: 35vh;
+    font-size: 1rem;
+  }
+  .sidebar-left:hover,
+  .sidebar-right:hover {
+    width: 5vw;
+  }
+  .sidebar-right__nav {
+    padding-right: 50px;
+  }
+  .footer {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 2000px) {
+  .benefits__block {
+    width: 6vw;
+    height: 10vh;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    width: 6vw;
+    height: 35vh;
+    font-size: 1rem;
+  }
+  .sidebar-left:hover,
+  .sidebar-right:hover {
+    width: 9vw;
+  }
+  .sidebar-right__nav {
+    padding-right: 60px;
+  }
+}
+@media (max-width: 1500px) {
+  .header {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .promo {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .promo__banner > h2 {
+    font-size: 5rem;
+  }
+  .promo__banner > p {
+    font-size: 1.5rem;
+  }
+  .content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .nft-token-sistem__knight > p {
+    height: 3vh;
+  }
+  .benefits__block {
+    width: 10vw;
+    height: 15vh;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    width: 10vw;
+    height: 50vh;
+    font-size: 1rem;
+  }
+  .sidebar-left:hover,
+  .sidebar-right:hover {
+    width: 12vw;
+  }
+  .sidebar-right__nav {
+    padding-right: 50px;
+  }
+  .footer {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 1300px) {
+  .promo__banner > h2 {
+    font-size: 5rem;
+  }
+  .promo__banner > p {
+    top: 40%;
+    font-size: 1.2rem;
+  }
   .content {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr auto;
@@ -459,6 +573,14 @@ li > a:hover {
     grid-column: 1/4;
     order: 3;
   }
+  .nft-token-sistem__knight > p {
+    height: 4vh;
+  }
+  .benefits__block {
+    width: 10vw;
+    height: 15vh;
+  }
+
   .sidebar-left {
     grid-column: 1/2;
     order: 1;
@@ -660,6 +782,7 @@ li > a:hover {
   .header-top > img {
     width: 60%;
   }
+
   .promo__banner > h2 {
     font-size: 3rem;
   }
