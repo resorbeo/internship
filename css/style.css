@@ -512,7 +512,7 @@ li > a:hover {
     padding-right: 60px;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .header {
     max-width: 100%;
     margin: 0 auto;
